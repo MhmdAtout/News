@@ -50,3 +50,34 @@
 .ai-end {
   align-items: flex-end;
 }
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  padding: 15px;
+}
+.navbar-elements {
+  width: 40%;
+}
+
+.sliding-content {
+  width: 100vw;
+  height: 5vh;
+}
+
+.page {
+  width: 100vw;
+  height: 85vh;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.news-card {
+  width: 300px;
+  height: 400px;
+}
