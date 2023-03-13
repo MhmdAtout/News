@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: georgia;
+  src: url("/frontend/assets/fonts/Georgia.ttf");
+}
+
+.g {
+  font-family: georgia;
+}
+
 .flex {
   display: flex;
 }
