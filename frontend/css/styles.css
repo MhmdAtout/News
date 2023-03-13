@@ -78,20 +78,18 @@ a {
   width: 40%;
 }
 
-.sliding-content {
-  width: 100vw;
-  height: 5vh;
-}
-
 .page {
   width: 100vw;
-  height: 85vh;
+  height: 90vh;
   padding: 50px;
-  /* flex-wrap: wrap; */
 }
 .page-title {
   font-size: 50px;
   margin-bottom: 20px;
+}
+.content {
+  width: 100vw;
+  flex-wrap: wrap;
 }
 
 .news-card {
@@ -99,6 +97,7 @@ a {
   height: 200px;
   padding: 15px;
   margin: 10px;
+  box-shadow: #8c8c8c 0 0 6px;
 }
 .news-card > div {
   margin-bottom: 10px;
